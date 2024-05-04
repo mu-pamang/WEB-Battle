@@ -1,0 +1,17 @@
+.logout_container {
+        display: flex;
+        align-items: center;
+}
+
+.logout_container .logout {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+}
+
+.logout_container .menu_login,
+.logout_container .menu_logout {
+        padding: 5px 10px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+}
