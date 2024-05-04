@@ -1,0 +1,80 @@
+.conA {
+    height: 400px;
+}
+
+.slide {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.conB {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: rgb(242, 242, 242 , 1);
+}
+
+.conB_title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.conB_container {
+    display: flex;
+    justify-content: center;
+}
+
+.conB_small_container {
+    margin-left: 70px;
+    margin-right: 70px;
+    transition: 0.1s linear;
+}
+
+.conB_small_container:hover {
+    transform: scale(1.2);
+}
+
+.conB_small_container .conB_icon {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.conB_small_container .conB_content {
+    text-align: center;
+}
+
+.conB_small_container .icon {
+    display: inline-block;
+    font-size: 40px;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background-color: rgba(77, 165, 124, 1);
+    color: rgb(255, 255, 255 , 1);
+}
+
+.conB_small_container h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.conB_small_container p {
+    font-size: 15px;
+}
+
+.super_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
